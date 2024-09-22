@@ -54,10 +54,11 @@ This project contains Python functions to compute semantic similarity between wo
 
 The output is the accuracy percentage of the similarity test.
 
-if __name__ == '__main__':
-    sem_descriptors = build_semantic_descriptors_from_files(["wp.txt", "sw.txt"])
-    res = run_similarity_test("test.txt", sem_descriptors, cosine_similarity)
-    print(res)
+  ```bash
+  if __name__ == '__main__':
+      sem_descriptors = build_semantic_descriptors_from_files(["wp.txt", "sw.txt"])
+      res = run_similarity_test("test.txt", sem_descriptors, cosine_similarity)
+      print(res)
     
 This will build semantic descriptors from the files wp.txt and sw.txt and test the similarity predictions using test.txt.
 
