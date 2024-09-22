@@ -1,4 +1,6 @@
 # Synonyms
+# Authors: Anthony Salgado & Harry Nguyen
+# Date Completed: December 5, 2022
 # Semantic Similarity Project
 
 This project contains Python functions to compute semantic similarity between words using cosine similarity and semantic descriptors built from text files.
